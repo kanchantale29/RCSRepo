@@ -131,27 +131,6 @@
           <div class="suite-Surefire_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.rcs.qa.testcases.AddNewCustomerTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addNewCustomer">
-                  </a> <!-- addNewCustomer -->
-                  <span class="method-name">addNewCustomer</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
-	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
-	at com.rcs.qa.testcases.AddNewCustomerTest.setUp(AddNewCustomerTest.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-skipped -->
-          <div class="suite-Surefire_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
               <span class="class-name">com.rcs.qa.testcases.WidgetDashboardTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -163,6 +142,27 @@
                   <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
 	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
 	at com.rcs.qa.testcases.WidgetDashboardTest.setUp(WidgetDashboardTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.rcs.qa.testcases.AddNewCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewCustomer">
+                  </a> <!-- addNewCustomer -->
+                  <span class="method-name">addNewCustomer</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
+	at com.rcs.qa.testcases.AddNewCustomerTest.setUp(AddNewCustomerTest.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
@@ -246,12 +246,12 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'employeeLogin')
-data.setCell(0, 2, 'com.rcs.qa.testcases.LoginTest')
+data.setCell(0, 1, 'clickOnAddNewCustomerButton')
+data.setCell(0, 2, 'com.rcs.qa.testcases.WidgetDashboardTest')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickOnAddNewCustomerButton')
-data.setCell(1, 2, 'com.rcs.qa.testcases.WidgetDashboardTest')
+data.setCell(1, 1, 'employeeLogin')
+data.setCell(1, 2, 'com.rcs.qa.testcases.LoginTest')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'addNewCustomer')
@@ -296,11 +296,11 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clickOnAddNewCustomerButton</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9 ms</span>
+                <span class="method-start">23 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -309,16 +309,16 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">11 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">addNewCustomer</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">30 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.rcs.qa.testcases.LoginTest</div> <!-- chronological-class-name -->
@@ -326,15 +326,15 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">33 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">employeeLogin</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-start">34 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

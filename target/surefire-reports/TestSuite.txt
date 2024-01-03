@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 0.484 s <<< FAILURE! -- in TestSuite
-com.rcs.qa.testcases.WidgetDashboardTest.setUp -- Time elapsed: 0.137 s <<< FAILURE!
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 0.894 s <<< FAILURE! - in TestSuite
+com.rcs.qa.testcases.WidgetDashboardTest.setUp  Time elapsed: 0.567 s  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
 	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
 	at com.rcs.qa.testcases.WidgetDashboardTest.setUp(WidgetDashboardTest.java:32)
@@ -44,7 +44,7 @@ java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "b
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.rcs.qa.testcases.AddNewCustomerTest.setUp -- Time elapsed: 0.002 s <<< FAILURE!
+com.rcs.qa.testcases.AddNewCustomerTest.setUp  Time elapsed: 0.005 s  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
 	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
 	at com.rcs.qa.testcases.AddNewCustomerTest.setUp(AddNewCustomerTest.java:29)
@@ -86,7 +86,7 @@ java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "b
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.rcs.qa.testcases.LoginTest.setUp -- Time elapsed: 0.013 s <<< FAILURE!
+com.rcs.qa.testcases.LoginTest.setUp  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
 	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
 	at com.rcs.qa.testcases.LoginTest.setUp(LoginTest.java:28)

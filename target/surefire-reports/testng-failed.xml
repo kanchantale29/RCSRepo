@@ -3,13 +3,6 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.rcs.qa.testcases.AddNewCustomerTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="addNewCustomer"/>
-        </methods>
-      </class> <!-- com.rcs.qa.testcases.AddNewCustomerTest -->
       <class name="com.rcs.qa.testcases.WidgetDashboardTest">
         <methods>
           <include name="clickOnAddNewCustomerButton"/>
@@ -17,6 +10,13 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.rcs.qa.testcases.WidgetDashboardTest -->
+      <class name="com.rcs.qa.testcases.AddNewCustomerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addNewCustomer"/>
+        </methods>
+      </class> <!-- com.rcs.qa.testcases.AddNewCustomerTest -->
       <class name="com.rcs.qa.testcases.LoginTest">
         <methods>
           <include name="setUp"/>

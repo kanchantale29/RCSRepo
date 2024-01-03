@@ -23,7 +23,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop= new Properties();
-			FileInputStream ip =  new FileInputStream("/Users/kanchan/Desktop/ARTUS- Automation/RCSTest/src/main/java/com/rcs/qa/config/config.properties");
+			FileInputStream ip =  new FileInputStream("/Users/kanchan/Desktop/ARTUSAutomation/RCSTest/src/main/java/com/rcs/qa/config/config.properties");
 			prop.load(ip);
 			
 		}catch(FileNotFoundException e) {
