@@ -10,6 +10,20 @@
           <include name="addNewCustomer"/>
         </methods>
       </class> <!-- com.rcs.qa.testcases.AddNewCustomerTest -->
+      <class name="com.rcs.qa.testcases.WidgetDashboardTest">
+        <methods>
+          <include name="clickOnAddNewCustomerButton"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.rcs.qa.testcases.WidgetDashboardTest -->
+      <class name="com.rcs.qa.testcases.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="employeeLogin"/>
+        </methods>
+      </class> <!-- com.rcs.qa.testcases.LoginTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

@@ -9,32 +9,42 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">55,747</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">36</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.rcs.qa.testcases.AddNewCustomerTest</td><td><a href="#m0">addNewCustomer</a></td><td rowspan="1">1704282856576</td><td rowspan="1">7792</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.rcs.qa.testcases.LoginTest</td><td><a href="#m1">employeeLogin</a></td><td rowspan="1">1704282872452</td><td rowspan="1">7344</td></tr><tr class="passedodd"><td rowspan="1">com.rcs.qa.testcases.WidgetDashboardTest</td><td><a href="#m2">clickOnAddNewCustomerButton</a></td><td rowspan="1">1704282840537</td><td rowspan="1">1389</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.rcs.qa.testcases.AddNewCustomerTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1704294813280</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.rcs.qa.testcases.LoginTest</td><td><a href="#m1">setUp</a></td><td rowspan="1">1704294813292</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="1">com.rcs.qa.testcases.WidgetDashboardTest</td><td><a href="#m2">setUp</a></td><td rowspan="1">1704294813269</td><td rowspan="1">5</td></tr><tr><th colspan="4">Surefire test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.rcs.qa.testcases.AddNewCustomerTest</td><td><a href="#m3">tearDown</a></td><td rowspan="1">1704294813280</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.rcs.qa.testcases.LoginTest</td><td><a href="#m4">tearDown</a></td><td rowspan="1">1704294813293</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">com.rcs.qa.testcases.WidgetDashboardTest</td><td><a href="#m5">tearDown</a></td><td rowspan="1">1704294813278</td><td rowspan="1">0</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.rcs.qa.testcases.AddNewCustomerTest</td><td><a href="#m6">addNewCustomer</a></td><td rowspan="1">1704294813280</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.rcs.qa.testcases.LoginTest</td><td><a href="#m7">employeeLogin</a></td><td rowspan="1">1704294813293</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">com.rcs.qa.testcases.WidgetDashboardTest</td><td><a href="#m8">clickOnAddNewCustomerButton</a></td><td rowspan="1">1704294813276</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">com.rcs.qa.testcases.AddNewCustomerTest#addNewCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=120.0.2210.91)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.8&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [69e30927d30c53f716dcf9f8b5741b49, executeScript {script=return document.readyState, args=[]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.91, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49793}, msedge: {msedgedriverVersion: 120.0.2210.91 (f469d579f138..., userDataDir: /var/folders/80/kf3s932s3yz...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49793/devtoo..., se:cdpVersion: 120.0.2210.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69e30927d30c53f716dcf9f8b5741b49
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:472)
-	at com.rcs.qa.pages.WidgetDashboard.clickOnAddCustomerButton(WidgetDashboard.java:51)
-	at com.rcs.qa.testcases.AddNewCustomerTest.addNewCustomer(AddNewCustomerTest.java:43)
+<h2>Surefire test</h2><h3 id="m0">com.rcs.qa.testcases.AddNewCustomerTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
+	at com.rcs.qa.testcases.AddNewCustomerTest.setUp(AddNewCustomerTest.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.rcs.qa.testcases.LoginTest#employeeLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.rcs.qa.testcases.WidgetDashboardTest#clickOnAddNewCustomerButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.rcs.qa.testcases.LoginTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
+	at com.rcs.qa.testcases.LoginTest.setUp(LoginTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.rcs.qa.testcases.WidgetDashboardTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
+	at com.rcs.qa.testcases.WidgetDashboardTest.setUp(WidgetDashboardTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.rcs.qa.testcases.AddNewCustomerTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.rcs.qa.testcases.LoginTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.rcs.qa.testcases.WidgetDashboardTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.rcs.qa.testcases.AddNewCustomerTest#addNewCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
+	at com.rcs.qa.testcases.AddNewCustomerTest.setUp(AddNewCustomerTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.rcs.qa.testcases.LoginTest#employeeLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
+	at com.rcs.qa.testcases.LoginTest.setUp(LoginTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.rcs.qa.testcases.WidgetDashboardTest#clickOnAddNewCustomerButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at com.rcs.qa.base.TestBase.initialization(TestBase.java:40)
+	at com.rcs.qa.testcases.WidgetDashboardTest.setUp(WidgetDashboardTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
