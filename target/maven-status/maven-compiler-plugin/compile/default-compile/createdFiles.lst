@@ -1,0 +1,8 @@
+com/rcs/qa/pages/ContractManagement.class
+com/rcs/qa/utils/TestUtils.class
+com/rcs/qa/pages/CustomerManagement.class
+com/rcs/qa/pages/ClaimsManagement.class
+com/rcs/qa/pages/Login.class
+com/rcs/qa/pages/WidgetDashboard.class
+com/rcs/qa/pages/AddNewCustomerPage.class
+com/rcs/qa/base/TestBase.class
